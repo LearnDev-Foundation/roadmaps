@@ -1,6 +1,6 @@
 import React from "react";
 import { HashRouter, Route, Routes } from "react-router-dom";
-import { Home } from "./Container";
+import { Home, Search } from "./Container";
 
 import "./App.scss";
 
@@ -10,6 +10,7 @@ const App = () => {
 			<HashRouter>
 				<Routes>
 					<Route element={<Home />} path="/" exact />
+					<Route element={<Search />} path="/search" />
 				</Routes>
 			</HashRouter>
 		</div>
