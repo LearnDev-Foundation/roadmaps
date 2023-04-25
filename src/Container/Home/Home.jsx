@@ -1,5 +1,5 @@
 import React from "react";
-import { Navbar } from "../../Components";
+import { Navbar, Blog } from "../../Components";
 import image from "../../assets/images.svg";
 
 import "./Home.scss";
@@ -41,6 +41,7 @@ const Home = () => {
 					</div>
 				</div>
 			</div>
+			<Blog />
 		</div>
 	);
 };
