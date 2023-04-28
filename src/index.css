@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Inter:wght@400;600&family=Lato:wght@700&family=Poppins&family=Source+Code+Pro:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Adamina&family=Inter:wght@400;600&family=Lato:wght@700&family=Poppins&family=Raleway:wght@400;500&family=Roboto:wght@400;500&family=Source+Code+Pro:wght@400;500&display=swap');
 
 :root {
   --font-inter: 'Inter', sans-serif;
@@ -6,6 +6,8 @@
   --font-adamina: 'Adamina', serif;
   --font-poppins: 'Poppins', sans-serif;
   --font-source-code: 'Source Code Pro', monospace;
+  --font-raleway: 'Raleway', sans-serif;
+  --font-roboto: 'Roboto', sans-serif;
 }
 
 * {
