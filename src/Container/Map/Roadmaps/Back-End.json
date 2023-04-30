@@ -1,0 +1,73 @@
+{
+    "name": "Back-End Development",
+    "roadmap": {
+        "1": {
+            "topic": "How the internet works",
+            "articles": [
+                {
+                    "title": "How the internet works",
+                    "url": "https://ldfhowto.vercel.app/#/articles/how-the-internet-works"
+                }
+            ]
+        },
+        "2": {
+            "topic": "Basic Frontend Knowledge",
+            "recommendations": [ "HTML", "CSS", "JavaScript" ]
+        },
+        "3": "Operating System and General Knowledge",
+        "4": {
+            "topic": "Programming Langugae",
+            "recommendations": [ "JavaScript", "Python", "Go", "Ruby", "Java", "C#", "Rust", "PHP"]
+        },
+        "5": {
+            "topic": "Version Control",
+            "recommendations": [ "Git" ]
+        },
+        "6": {
+            "topic": "Repository Hosting Services",
+            "recommendations": [ "GitHub", "GitLab", "BitBucket" ]
+        },
+        "7": {
+            "topic": "Relational Databases",
+            "recommendations": [ "MySQL", "PostgreSQL", "MariaDB", "SQLite" ]
+        },
+        "8": {
+            "topic": "NoSQL Databases",
+            "recommendations": [ "MongoDB", "Redis", "CouchDB" ]
+        },
+        "9": "Additional knowlegde on databases",
+        "10": {
+            "topic": "Basic APIs",
+            "recommendations": [ "REST API", "JSON API", "GraphQL" ]
+        },
+        "11": {
+            "topic": "Authentication APIs",
+            "recommendations": [ "OAuth", "OpenID", "JWT" ]
+        },
+        "12": {
+            "topic": "Coaching",
+            "recommendations": [ "CDN", "Redis" ]
+        },
+        "13": {
+            "topic": "Web Security",
+            "recommendations": [ "Hashing Algorithms" ]
+        },
+        "14": "Testing",
+        "15": {
+            "topic": "CI/CD",
+            "recommendations": [ "Github Actions", "Jenkins", "CircleCI", "TravisCI" ]
+        },
+        "16": "Design and Development Principles",
+        "17": "Architectural Patterns",
+        "18": "Search Engines",
+        "19": {
+            "topic": "Containerization",
+            "recommendations": [ "Docker" ]
+        },
+        "21": "Web Sockets",
+        "22": {
+            "topic": "Web Servers",
+            "recommendations": [ "Nginx", "Apache" ]
+        }
+    }
+}

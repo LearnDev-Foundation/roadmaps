@@ -1,0 +1,20 @@
+{
+    "frontend": {
+        "name": "Front-End Development",
+        "description": "Master the essentials of modern web development with our comprehensive front-end development roadmap.",
+        "slug": "frontend",
+        "fileLink": "/Frontend/Front-End"
+    },
+    "backend": {
+        "name": "Back-End Development",
+        "description": "Ready to dive into the world of server-side development? Our Back End Development roadmap has got you covered.",
+        "slug": "backend",
+        "fileLink": "Back-End"
+    },
+    "ml": {
+        "name": "Machine Learning",
+        "description": "Machine Learning is the future. Get started on your ML journey with our Machine Learning roadmap.",
+        "slug": "ml",
+        "fileLink": "#"
+    }
+}

@@ -1,10 +1,35 @@
 import React from "react";
 import { Navbar, Blog, Newsletter, Footer } from "../../Components";
 import image from "../../assets/images.svg";
+import roadmaps from "../../assets/roadmaps/roadmaps.json";
+import { Link } from "react-router-dom";
 
 import "./Home.scss";
 
 const Home = () => {
+	const items = [];
+
+	let count = 0;
+	for (const roadmap in roadmaps) {
+		// eslint-disable-next-line no-prototype-builtins
+		if (roadmaps.hasOwnProperty(roadmap)) {
+			const obj = roadmaps[roadmap];
+			items.push(
+				<div className="app__home_roadmaps-map" key={obj.slug}>
+					<div className="text">
+						<h4>{obj.name}</h4>
+						<p>{obj.description}</p>
+					</div>
+					<Link to={`/roadmaps/${obj.slug}`} state={{ data: obj.fileLink } }>See Roadmap</Link>
+				</div>
+			);
+			count++;
+			if (count === 3) {
+				break;
+			}
+		}
+	}
+
 	return (
 		<div>
 			<Navbar />
@@ -17,29 +42,7 @@ const Home = () => {
 					</div>
 					<img src={image} alt="" />
 				</div>
-				<div className="app__home_roadmaps">
-					<div className="app__home_roadmaps-map">
-						<div className="text">
-							<h4>Front-End Development</h4>
-							<p>Master the essentials of modern web development with our comprehensive front-end development roadmap.</p>
-						</div>
-						<a href="#">See Roadmap</a>
-					</div>
-					<div className="app__home_roadmaps-map">
-						<div className="text">
-							<h4>Back-End Development</h4>
-							<p>Ready to dive into the world of server-side development? Our Back End Development roadmap has got you covered.</p>
-						</div>
-						<a href="#">See Roadmap</a>
-					</div>
-					<div className="app__home_roadmaps-map">
-						<div className="text">
-							<h4>ML Engineering</h4>
-							<p>Explore the intersection of computer science and statistics with our Machine Learning Engineering roadmap.</p>
-						</div>
-						<a href="#">See Roadmap</a>
-					</div>
-				</div>
+				<div className="app__home_roadmaps">{items}</div>
 			</div>
 			<Blog />
 			<Newsletter />

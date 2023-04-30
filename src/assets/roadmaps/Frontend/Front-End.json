@@ -1,0 +1,82 @@
+{
+    "name": "Front-End Development",
+    "roadmap": {
+        "1": {
+            "topic": "How the internet works",
+            "articles": [
+                {
+                    "title": "How the internet works",
+                    "url": "https://ldfhowto.vercel.app/#/articles/how-the-internet-works"
+                }
+            ]
+        },
+        "2": "HTML",
+        "3": "CSS",
+        "4": "JavaScript",
+        "5": {
+            "topic": "Version Control",
+            "recommendations": [ "Git" ]
+        },
+        "6": {
+            "topic": "Repository Hosting Services",
+            "recommendations": [ "GitHub", "GitLab", "BitBucket" ]
+        },
+        "7": "Web Security",
+        "8": "Package Managers",
+        "9": {
+            "topic": "CSS Architecture",
+            "recommendations": [ "BEM", "SMACSS", "OOCSS", "ITCSS" ]
+        },
+        "10": {
+            "topic": "CSS Preprocessors",
+            "recommendations": [ "Sass", "Less", "Stylus" ]
+        },
+        "11": {
+            "topic": "Build Tools",
+            "recommendations": [ "Webpack", "Parcel", "Rollup", "Browserify" ]
+        },
+        "12": {
+            "topic": "Javascript Frameworks",
+            "recommendations": [ "React", "Vue", "Angular" ]
+        },
+        "13": {
+            "topic": "Modern CSS",
+            "recommendations": [ "Styled Components", "CSS Modules"]
+        },
+        "14": {
+            "topic": "CSS Frameworks",
+            "recommendations": [ "Bootstrap", "Tailwind", "Bulma" ]
+        },
+        "15": "Testing",
+        "16": {
+            "topic": "Testing Tools",
+            "recommendations": [ "Jest", "Mocha", "Chai", "Enzyme", "Cypress" ]
+        },
+        "17": {
+            "topic": "Type Checkers",
+            "recommendations": [ "TypeScript", "Flow" ]
+        },
+        "18": "Progresive Web Apps",
+        "19": {
+            "topic": "Server Side Rendering",
+            "recommendations": [ "Next.js", "Nuxt.js" ]
+        },
+        "20": {
+            "topic": "GraphQL",
+            "recommendations": [ "Apollo", "Relay" ]
+        },
+        "21": {
+            "topic": "Static Site Generators",
+            "recommendations": [ "Gatsby", "Jekyll", "Hugo" ]
+        },
+        "22": {
+            "topic": "Mobile Apps",
+            "recommendations": [ "React Native", "Flutter", "Ionic" ]
+        },
+        "23": {
+            "topic": "Desktop Apps",
+            "recommendations": [ "Electron", "Proton Native", "React Native Windows" ]
+        },
+        "24": "Web Assembly"
+    }
+}
