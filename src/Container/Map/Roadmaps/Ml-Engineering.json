@@ -1,7 +1,7 @@
 {
     "name": "Machine Learning Engineering",
     "description": "Machine Learning is the future. Get started on your ML journey with our Machine Learning roadmap.",
-    "roadmaps": {
+    "roadmap": {
         "1": "Basic Knowledge of Mathematics (Linear Algebra, Statistics)",
         "2": {
             "topic": "Programming",
