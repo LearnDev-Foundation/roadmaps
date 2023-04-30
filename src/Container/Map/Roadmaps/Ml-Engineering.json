@@ -1,0 +1,46 @@
+{
+    "name": "Machine Learning Engineering",
+    "description": "Machine Learning is the future. Get started on your ML journey with our Machine Learning roadmap.",
+    "roadmaps": {
+        "1": "Basic Knowledge of Mathematics (Linear Algebra, Statistics)",
+        "2": {
+            "topic": "Programming",
+            "recommendations": [ "Python(recommended)", "SQL(recommended)", "R", "Julia"]
+        },
+        "3": "Data Structures and Algorithms",
+        "4": "Data Sourcing",
+        "5": {
+            "topic": "Data Wrangling",
+            "recommendations": [ "Pandas", "Numpy", "Scipy" ]
+        },
+        "6": {
+            "topic": "Data Visualization",
+            "recommendations": [ "Matplotlib", "Seaborn", "Plotly" ]
+        },
+        "7": "Machine Learning Basics",
+        "8": {
+            "topic": "Deep Learning Frameworks",
+            "recommendations": [ "Tensorflow", "Pytorch", "Keras", "Google JAX" ]
+        },
+        "9": {
+            "topic": "ML Pipelines",
+            "recommendations": [ "Airflow", "Kubeflow", "MLflow" ]
+        },
+        "10": {
+            "topic": "CI/CD",
+            "recommendations": [ "Github Actions", "Jenkins", "CircleCI", "TravisCI" ]
+        },
+        "11": {
+            "topic": "Cloud Computing",
+            "recommendations": [ "AWS", "GCP", "Azure" ]
+        },
+        "12": {
+            "topic": "ML Operations",
+            "recommendations": [ "Kubernetes", "Docker", "Kubeflow", "KFServing" ]
+        },
+        "13": {
+            "topic": "Model Monitoring",
+            "recommendations": [ "Prometheus", "Grafana", "Kubeflow" ]
+        }
+    }
+}

@@ -53,7 +53,7 @@ const Navbar = () => {
 				<div className="app__navbar_container_menu">
 					<div className="app__navbar_container_menu-links">
 						<Link to="/">Home</Link>
-						<a href="#">Roadmaps</a>
+						<Link to="/roadmaps">Roadmaps</Link>
 						<a href="https://learndevfoundation.vercel.app/#/about" target="_blank" rel='noopener noreferrer'>About</a>
 					</div>
 					<div className="app__navbar_container_menu-search">
@@ -66,7 +66,7 @@ const Navbar = () => {
 						<FontAwesomeIcon icon={faBars} beat className='.app__navbar_hamburger-icon' onClick={() => setNavbarOpen((prev) => !prev)}/>
 						<ul className={`hamburger ${navbarOpen ? "show-hamburger" : ""}`}>
 							<li onClick={() => setNavbarOpen(false)}><Link to="/">Home</Link></li>
-							<li onClick={() => setNavbarOpen(false)}><a href="#">Roadmaps</a></li>
+							<li onClick={() => setNavbarOpen(false)}><Link to="/roadmaps">Roadmaps</Link></li>
 							<li onClick={() => setNavbarOpen(false)}><a href="https://learndevfoundation.vercel.app/#/about" target="_blank" rel='noopener noreferrer'>About</a></li>
 							<div className="app__navbar_hamburger-search">
 								<div className="input">

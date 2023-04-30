@@ -20,7 +20,7 @@ const Home = () => {
 						<h4>{obj.name}</h4>
 						<p>{obj.description}</p>
 					</div>
-					<Link to={`/roadmaps/${obj.slug}`} state={{ data: obj.fileLink } }>See Roadmap</Link>
+					<Link to={`/roadmaps/${obj.slug}`} state={{ data: obj.fileLink }}>See Roadmap</Link>
 				</div>
 			);
 			count++;
@@ -38,7 +38,7 @@ const Home = () => {
 					<div className="app__home_hero-content">
 						<h2>Embark on an Exciting Journey to Tech Mastery with LearnDev Roadmaps</h2>
 						<p>LearnDev Roadmaps is your ultimate guide to mastering the technical skills you need to succeed in today&apos;s fast-paced tech industry. With our expertly curated roadmaps, you can embark on a journey to tech mastery and achieve your goals with confidence.</p>
-						<a href="#">All Roadmaps</a>
+						<Link to="/roadmaps">All Roadmaps</Link>
 					</div>
 					<img src={image} alt="" />
 				</div>
