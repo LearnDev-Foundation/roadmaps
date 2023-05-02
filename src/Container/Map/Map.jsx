@@ -25,7 +25,7 @@ const Map = () => {
 	return (
 		<div>
 			<Navbar />
-			<div className="app__map">
+			<div className="app__map" id="roadmap">
 				<div className="app__map_title">
 					<h2>{roadmap.name}</h2>
 					<p>{roadmap.description}</p>
@@ -51,11 +51,11 @@ const Map = () => {
 									)}
 									{item.articles && (
 										<>
-											<h4>Articles:</h4>
+											<h4>Resources:</h4>
 											<ul>
 												{item.articles.map((article) => (
 													<li key={article.url}>
-														<a href={article.url}>{article.title}</a>
+														<a href={article.url} target="_blank" rel="noreferrer noopener" >{article.title}</a>
 													</li>
 												))}
 											</ul>

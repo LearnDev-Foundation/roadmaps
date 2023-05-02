@@ -23,7 +23,10 @@
             "recommendations": [ "GitHub", "GitLab", "BitBucket" ]
         },
         "7": "Web Security",
-        "8": "Package Managers",
+        "8": {
+            "topic": "Package Managers",
+            "recommendations": [ "npm", "Yarn" ]
+        },
         "9": {
             "topic": "CSS Architecture",
             "recommendations": [ "BEM", "SMACSS", "OOCSS", "ITCSS" ]
