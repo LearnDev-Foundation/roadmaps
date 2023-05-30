@@ -16,7 +16,7 @@ const Footer = () => {
 				</div>
 				<div className="app__footer_content-links">
 					<a href="https://learndevfoundation.vercel.app/" target="_blank" rel="noopener noreferrer">LearnDev Foundation</a>
-					<a href="#">Academy</a>
+					<a href="https://ldfacademy.vercel.app/" target="_blank" rel="noopener noreferrer">Academy</a>
 					<a href="https://ldfhowto.vercel.app/" target="_blank" rel="noopener noreferrer">Blog</a>
 				</div>
 				<div className="app__footer_content-socials">
