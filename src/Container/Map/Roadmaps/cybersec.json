@@ -1,0 +1,20 @@
+{
+    "name": "Security Engineering",
+    "description": "Learn the fundamentals of security engineering and become a cyber security professional with our Security Engineering roadmap.",
+    "roadmap": {
+        "1": {
+            "topic": "Learn a programming language.",
+            "recommendations": [ "python(recommended)", "JavaScript", "Java", "Go" ]
+        },
+        "2": "Learn computing basics",
+        "3": "Cryptography Fundamentals",
+        "4": "Learn how the linux operating system works",
+        "5": "Learn basic security fundamentals",
+        "6": "Learn the basics of networking",
+        "7": "Cyber Forensics Fundamentals",
+        "8": "Learn C/C++",
+        "9": "Reverse Engineering",
+        "10": "Binary Exploitation",
+        "11": "Implant Development"
+    }
+}

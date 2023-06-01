@@ -16,5 +16,11 @@
         "description": "Machine Learning is the future. Get started on your ML journey with our Machine Learning roadmap.",
         "slug": "ml",
         "fileLink": "Ml-Engineering"
+    },
+    "csec": {
+        "name": "Security Engineering",
+        "description": "Learn the fundamentals of security engineering and become a cyber security professional with our Security Engineering roadmap.",
+        "slug": "csec",
+        "fileLink": "cybersec"
     }
 }
